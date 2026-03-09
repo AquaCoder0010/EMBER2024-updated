@@ -25,7 +25,7 @@ import numpy as np
 import pefile
 from sklearn.feature_extraction import FeatureHasher
 import signify
-from signify.authenticode import SignedPEFile
+from signify.authenticode.signed_file import SignedPEFile
 from datetime import datetime
 
 
