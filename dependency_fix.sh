@@ -4,7 +4,7 @@
 # Usage: ./script.sh [venv|no_venv]
 
 MODE="${1:-no_venv}"
-PROJECT_DIR="/home/aqua/Documents/source/EMBER2024-updated"
+PROJECT_DIR="WORKING_DIR"
 OSCRYPTO_FILE="$PROJECT_DIR/v/lib/python3.12/site-packages/oscrypto/_openssl/_libcrypto_ctypes.py"
 
 if [ "$MODE" = "venv" ]; then
